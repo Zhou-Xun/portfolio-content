@@ -68,8 +68,12 @@ a:visited, a:active, a:link{
     transform: translateY(-5px);
 }
 
-main {
+#lyst {
     display: inline-block;
+}
+
+main {
+    display: block;
 }
 
 .grid {
@@ -82,3 +86,16 @@ main {
     justify-items: center;
 }
 
+p {
+    text-align: left;
+}
+
+footer {
+    display: block;
+    align-items: center;
+}
+
+body {
+    margin: 1%;
+    padding: 1%;
+}
