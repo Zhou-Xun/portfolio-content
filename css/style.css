@@ -152,7 +152,7 @@ ul {
     color: #a9a9a9;
 }
 
-.second-section img:hover{
+img:hover{
     filter: grayscale(50%);
     border: dashed;
 }
