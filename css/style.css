@@ -151,3 +151,8 @@ ul {
 .first-section .review span {
     color: #a9a9a9;
 }
+
+.second-section img:hover{
+    filter: grayscale(50%);
+    border: dashed;
+}
