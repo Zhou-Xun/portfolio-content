@@ -1,16 +1,13 @@
 body {
     background-color: rgba(0,0,0,1);
     font-weight:600;
-    text-align:center !important;
     color: white;
-}
-
-h1 {
     font-family: 'Didact Gothic', sans-serif;
 }
 
 h4 {
     margin: 0 0 10px 0;
+    text-align:center;
 }
 
 .hovernav{
@@ -28,6 +25,7 @@ h4 {
 nav {
     background: none !important;
     text-transform:uppercase;
+    text-align:center;
 }
 
 li {
@@ -77,7 +75,7 @@ main {
 }
 
 .grid {
-    margin: 20px 0 0 0;
+    margin: 0;
     display: grid;
     width: 1200px;
     height: 800px;
@@ -86,10 +84,6 @@ main {
     justify-items: center;
 }
 
-p {
-    text-align: left;
-    margin-left: 200px;
-}
 
 footer {
     display: block;
@@ -99,4 +93,61 @@ footer {
 body {
     margin: 1%;
     padding: 1%;
+}
+
+.main-section-content h1 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.main-section {
+    margin-left: 100px;
+}
+
+.first-section img {
+    float: left;
+}
+
+header h1 {
+    text-align:center;
+}
+
+.first-section h4 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.first-section{
+    height: 400px;
+    width: 1200px;
+}
+
+.first-section .review p {
+    position: relative;
+    left: 1em;
+    line-height: 0.5em;
+}
+.first-section .review a {
+    color: #a9a9a9;
+    text-decoration: underline;
+}
+
+.first-section .review img {
+    position: relative;
+    height: 1.2em;
+    bottom: 5px;
+}
+
+.first-section li{
+    display:inline;
+    margin: 0;
+}
+
+ul {
+    list-style-image: url('https://en.wikipedia.org/w/skins/Vector/resources/common/images/bullet-icon.svg?d4515');
+}
+
+
+.first-section .review span {
+    color: #a9a9a9;
 }
